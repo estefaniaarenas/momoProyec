@@ -1,0 +1,56 @@
+type User @model {
+  id: ID!
+  name: String
+  last_name: String
+  email: String
+  location: Location
+}
+
+type Pet @model {
+  id: ID!
+  description: String
+  images: [String]
+  location: Location
+  type: PetType
+  state: PetState
+  contact: String
+  whatsapp: String
+  species: Species
+  gender: Gender
+  sterilized: Sterilized
+}
+
+type Location {
+  street: String
+  city: String
+  state: String
+  lat: Float
+  lng: Float
+}
+
+enum PetState {
+  ACTIVE
+  INACTIVE
+}
+
+enum PetType {
+  LOST
+  FOUND
+}
+
+enum Species {
+  CAT
+  DOG
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  NA
+}
+
+enum Sterilized {
+  YES
+  NO
+  NA
+}

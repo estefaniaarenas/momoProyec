@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-momo-dev-233121-authRole",
+      "UnauthRoleArn": "arn:aws:iam::750868373350:role/amplify-momo-dev-233121-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::750868373350:role/amplify-momo-dev-233121-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-momo-dev-233121-deployment",
+      "UnauthRoleName": "amplify-momo-dev-233121-unauthRole",
+      "StackName": "amplify-momo-dev-233121",
+      "StackId": "arn:aws:cloudformation:us-east-1:750868373350:stack/amplify-momo-dev-233121/5a2524c0-6e0c-11ed-b901-129b0a0656e5",
+      "AmplifyAppId": "d3r4x1n98f9mdj"
+    },
+    "categories": {
+      "auth": {
+        "momo999cd102": {}
+      },
+      "api": {
+        "momo": {}
+      }
+    }
+  }
+}
